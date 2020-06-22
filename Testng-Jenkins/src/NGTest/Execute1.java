@@ -23,8 +23,7 @@ public class Execute1 {
       driver = new ChromeDriver();
       driver.get("http://demo.guru99.com/test/newtours/login.php");
     
-      driver.close();
-	       
+      driver.close();    
   }
   @BeforeMethod
   public void beforeMethod() {
